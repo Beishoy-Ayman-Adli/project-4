@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro safe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="page-frame" id="interactiveHero">
+
+    <video class="bg-video" id="introVideo" autoplay muted loop playsinline>
+      <source src="images/Metro_train_approaching_camera_f61c40b7.mp4 (2).mp4" type="video/mp4">
+    </video>
+
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <img src="images/IMG_hh.jpg (2).jpeg" alt="">
+        </div>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#home" class="dropdown-toggle">
+              <i class="fa-solid fa-house"></i>
+              <span>Home</span>
+            </a>
+            <ul class="menu">
+              <li><a href="#"><i class="fa-regular fa-bell"></i>Notifications</a></li>
+              <li><a href="#"><i class="fa-solid fa-globe"></i> Language</a></li>
+              <li><a href="#"><i class="fa-regular fa-moon"></i> Mode</a></li>
+              <li><a href="#"><i class="fa-solid fa-gear"></i> setting</a></li>
+              <li><a href="#"><i class="fa-regular fa-circle-question"></i> Help & Support</a></li>
+              <li><a href="#"><i class="fa-solid fa-ellipsis"></i> More</a></li>
+              <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#about" class="dropdown-toggle">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>About the system</span>
+            </a>
+            <ul class="menu">
+              <li><a href="#"><i fa-regular fa-file-lines></i>Project Overview</a></li>
+              <li><a href="#"><i class="fa-solid fa-sliders"></i> Control room</a></li>
+              <li><a href="#"><i class="fa-solid fa-shield-halved"></i> Safety & Security</a></li>
+              <li><a href="#"><i class="fa-regular fa-eye"></i> Live Monitoring</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#features" class="dropdown-toggle">
+              <i class="fa-solid fa-star"></i>
+              <span>Features</span>
+            </a>
+            <ul class="menu">
+              <li><a href="#"><i class="fa-solid fa-camera"></i> Report an Incident</a></li>
+              <li><a href="#"><i class="fa-solid fa-triangle-exclamation"></i> Report</a></li>
+              <li><a href="#"><i class="fa-solid fa-ticket"></i> Ticket Booking</a></li>
+              <li><a href="#"><i class="fa-regular fa-calendar-days"></i> Train schedule</a></li>
+              <li><a href="#"><i class="fa-solid fa-users"></i> Crowed Status</a></li>
+              <li><a href="#"><i class="fa-solid fa-location-dot"></i> Interative Map</a></li>
+              <li><a href="#"><i class="fa-solid fa-person-rays"></i> Track person</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#how-it-works">
+              <i class="fa-solid fa-gear"></i>
+              <span>How it works</span>
+            </a>
+          </li>
+
+          <li class="dropdown">
+            <a href="#mobile-app" class="dropdown-toggle">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <span>Mobile App</span>
+            </a>
+            <ul class="menu">
+              <li><a href="#"><i class="fa-solid fa-download"></i> Download App</a></li>
+              <li><a href="#"><i class="fa-solid fa-mobile-screen-button"></i> App Overview</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#faq" class="dropdown-toggle">
+              <i class="fa-solid fa-circle-question"></i>
+              <span>FAQ</span>
+            </a>
+            <ul class="menu">
+              <li><a href="#"><i class="fa-solid fa-headset"></i> Customer Service</a></li>
+              <li><a href="#"><i class="fa-solid fa-phone-volume"></i> Metro Emergency Number</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="search-box">
+          <input type="text" placeholder="Search">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="btn">
+          <button class="login">Log In</button>
+          <button class="signup">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero bg-1" id="home">
+      <div class="container">
+        <div class="hero-text">
+          <h4>AI-POWERED</h4>
+          <h1>SAFETY & <br>MONITORING</h1>
+          <h4>For safer journeys</h4>
+          <p>AI-powered metro system for safer journeys, smarter operations, and a more sustainable city.</p>
+          <div class="bb">
+            <button>Explore the system <i class="fa-solid fa-arrow-right-long"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
