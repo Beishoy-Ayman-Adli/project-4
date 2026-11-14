@@ -5,9 +5,7 @@
   font-family: 'Inter', sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 .page-frame {
   position: relative;
@@ -188,8 +186,8 @@ html {
   opacity: 0;
 
 display: inline-flex;
-height: 924px;
-padding: 483px 111px 392px 92px;
+height: 814px;
+padding: 13px 111px 392px 24px;
 flex-direction: column;
 justify-content: flex-end;
 border-radius: 18px;
